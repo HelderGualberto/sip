@@ -5,3 +5,4 @@
 *.log
 data/personal/
 *.pytest_cache
+*.vscode
