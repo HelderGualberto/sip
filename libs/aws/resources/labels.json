@@ -1,0 +1,259 @@
+{
+    "Labels": [
+        {
+            "Name": "Face",
+            "Confidence": 99.99776458740234,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Name": "Human",
+            "Confidence": 99.99776458740234,
+            "Instances": [],
+            "Parents": []
+        },
+        {
+            "Name": "Person",
+            "Confidence": 99.99776458740234,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.26389846205711365,
+                        "Height": 0.4850129783153534,
+                        "Left": 0.05026620253920555,
+                        "Top": 0.49983298778533936
+                    },
+                    "Confidence": 99.71251678466797
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.32183837890625,
+                        "Height": 0.49853041768074036,
+                        "Left": 0.3442121744155884,
+                        "Top": 0.49155205488204956
+                    },
+                    "Confidence": 99.56666564941406
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.27946531772613525,
+                        "Height": 0.49660032987594604,
+                        "Left": 0.6957243084907532,
+                        "Top": 0.48984619975090027
+                    },
+                    "Confidence": 99.39411926269531
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.2655416429042816,
+                        "Height": 0.5036351084709167,
+                        "Left": 0.7173082232475281,
+                        "Top": 0.0073734475299716
+                    },
+                    "Confidence": 97.91531372070312
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.34952598810195923,
+                        "Height": 0.5087024569511414,
+                        "Left": 0.3260834515094757,
+                        "Top": 0.008409004658460617
+                    },
+                    "Confidence": 97.66255187988281
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.32304707169532776,
+                        "Height": 0.49750685691833496,
+                        "Left": 0.009683303534984589,
+                        "Top": 0.011494521982967854
+                    },
+                    "Confidence": 97.64708709716797
+                }
+            ],
+            "Parents": []
+        },
+        {
+            "Name": "Glasses",
+            "Confidence": 99.8429183959961,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.21507249772548676,
+                        "Height": 0.0884288027882576,
+                        "Left": 0.06893137842416763,
+                        "Top": 0.700748085975647
+                    },
+                    "Confidence": 99.8429183959961
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Accessory",
+            "Confidence": 99.8429183959961,
+            "Instances": [],
+            "Parents": []
+        },
+        {
+            "Name": "Accessories",
+            "Confidence": 99.8429183959961,
+            "Instances": [],
+            "Parents": []
+        },
+        {
+            "Name": "Poster",
+            "Confidence": 99.14534759521484,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Advertisement"
+                }
+            ]
+        },
+        {
+            "Name": "Collage",
+            "Confidence": 99.14534759521484,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Poster"
+                },
+                {
+                    "Name": "Advertisement"
+                }
+            ]
+        },
+        {
+            "Name": "Advertisement",
+            "Confidence": 99.14534759521484,
+            "Instances": [],
+            "Parents": []
+        },
+        {
+            "Name": "Smile",
+            "Confidence": 97.1229476928711,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Name": "Jaw",
+            "Confidence": 89.66400909423828,
+            "Instances": [],
+            "Parents": []
+        },
+        {
+            "Name": "Sunglasses",
+            "Confidence": 88.1084976196289,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.14493581652641296,
+                        "Height": 0.10626935958862305,
+                        "Left": 0.43569040298461914,
+                        "Top": 0.011259574443101883
+                    },
+                    "Confidence": 88.1084976196289
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Dimples",
+            "Confidence": 77.9207992553711,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Name": "Female",
+            "Confidence": 75.30270385742188,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Name": "Hair",
+            "Confidence": 63.97298049926758,
+            "Instances": [],
+            "Parents": []
+        },
+        {
+            "Name": "Portrait",
+            "Confidence": 56.28773880004883,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Photography"
+                },
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Name": "Photo",
+            "Confidence": 56.28773880004883,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Name": "Photography",
+            "Confidence": 56.28773880004883,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "2.0",
+    "ResponseMetadata": {
+        "RequestId": "608e1f88-c3ef-4d31-8f80-149f62cd567e",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Sun, 15 Dec 2019 14:36:37 GMT",
+            "x-amzn-requestid": "608e1f88-c3ef-4d31-8f80-149f62cd567e",
+            "content-length": "2993",
+            "connection": "keep-alive"
+        },
+        "RetryAttempts": 0
+    }
+}

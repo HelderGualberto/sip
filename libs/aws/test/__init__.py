@@ -1,0 +1,1 @@
+from .rekognition_test import *
